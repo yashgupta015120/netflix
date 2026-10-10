@@ -1,20 +1,25 @@
 <div align="center">
 
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:E50914,45:831010,100:080808&height=220&section=header&text=NETFLIX%20INDIA&fontSize=54&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=CINEMATIC%20STREAMING%20LANDING%20PAGE&descAlignY=58&descSize=16"
+  alt="Animated cinematic red wave banner for the Netflix India landing-page concept"
+  width="100%">
+
 # 🎬 Netflix India — Streaming Landing Page
 
 ### A cinematic, responsive landing-page concept made with HTML5 and CSS3
 
 [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-Design-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
-[![Hosted on Vercel](https://img.shields.io/badge/Hosted_on-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Live Demo](https://img.shields.io/badge/▶_LIVE_DEMO-OPEN-E50914?style=for-the-badge&logo=vercel&logoColor=white)](https://netflix-ruddy-nine.vercel.app/)
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=Manrope&weight=800&size=25&duration=1800&pause=900&color=E50914&center=true&vCenter=true&width=700&height=55&lines=THE+NEXT+STORY+STARTS+HERE;A+CINEMATIC+STREAMING+EXPERIENCE;BUILT+WITH+HTML5+%26+CSS3"
+  alt="Animated type-on tagline cycling through the project highlights">
 
 **A polished streaming homepage concept featuring cinematic visuals, responsive layouts, and lightweight interactions.**
 
 [✨ Explore the features](#-features) · [🧑‍💻 Set it up](#-installation-and-local-setup) · [🚀 Open the live site](https://netflix-ruddy-nine.vercel.app/)
-
----
-
-### ▶️ **[OPEN THE LIVE PROJECT](https://netflix-ruddy-nine.vercel.app/)**
 
 </div>
 
