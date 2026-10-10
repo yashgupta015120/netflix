@@ -61,7 +61,7 @@ This project is also a compact example of core front-end concepts:
 
 ```text
 .
-├── index.html          # Page content, translations, metadata, and accessible markup
+├── index.html          # Page content, metadata, accessible markup, and inline JavaScript
 ├── style.css           # Theme, responsive layouts, states, and animations
 ├── README.md           # Project guide and setup instructions
 ├── favicon.ico         # Browser tab icon
