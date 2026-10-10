@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#080808">
-    <meta name="description" content="Explore a cinematic, Netflix-inspired streaming landing page with English and Hindi language support.">
+    <meta name="description" content="Explore a cinematic, Netflix-inspired streaming landing page.">
     <meta property="og:title" content="Netflix India — Cinematic Landing Page">
-    <meta property="og:description" content="A responsive streaming landing page demo with Hindi and English language support.">
+    <meta property="og:description" content="A responsive streaming landing page demo with cinematic visuals and interactive features.">
     <meta property="og:type" content="website">
     <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css">
@@ -18,35 +18,26 @@
 
     <header class="main" id="home">
         <nav>
-            <a class="brand" href="#home" aria-label="Netflix-inspired demo home"
-                data-aria-label-en="Netflix-inspired demo home" data-aria-label-hi="Netflix प्रेरित डेमो का होम पेज">
+            <a class="brand" href="#home" aria-label="Netflix-inspired demo home">
                 <img src="assets/images/logo.svg" alt="Netflix">
             </a>
             <div class="nav-actions">
-                <select class="btn language-selector" aria-label="Language" id="language-selector"
-                    data-aria-label-en="Language" data-aria-label-hi="भाषा">
-                    <option value="en">English</option>
-                    <option value="hi">हिन्दी</option>
-                </select>
                 <a class="btn btn-red-sm sign-in-link" href="https://www.netflix.com/login" target="_blank" rel="noopener noreferrer">Sign In</a>
             </div>
         </nav>
         <div class="hero">
-            <span class="hero-kicker" data-en="YOUR NEXT FAVORITE IS WAITING" data-hi="आपकी अगली पसंदीदा कहानी आपका इंतज़ार कर रही है">YOUR NEXT FAVORITE IS WAITING</span>
-            <h1 data-en="Enjoy big movies, hit series and more from ₹ 149."
-                data-hi="₹ 149 से बड़ी फ़िल्मों, हिट सीरीज़ और बहुत कुछ का आनंद लें।">Enjoy big movies, hit series and more from ₹ 149.</h1>
-            <p class="hero-subtitle" data-en="Join today. Cancel anytime." data-hi="आज ही जुड़ें। कभी भी रद्द करें।">Join today. Cancel anytime.</p>
-            <p class="hero-prompt" data-en="Ready to watch? Enter your email to create or restart your membership."
-                data-hi="देखना शुरू करने के लिए तैयार हैं? सदस्यता लेने या फिर से शुरू करने के लिए अपना ईमेल दर्ज करें।">Ready to watch? Enter your email to create or restart your membership.</p>
+            <span class="hero-kicker">YOUR NEXT FAVORITE IS WAITING</span>
+            <h1>Enjoy big movies, hit series and more from ₹ 149.</h1>
+            <p class="hero-subtitle">Join today. Cancel anytime.</p>
+            <p class="hero-prompt">Ready to watch? Enter your email to create or restart your membership.</p>
             <form class="hero-buttons" id="membership-form" novalidate>
-                <label class="visually-hidden" for="email-address" data-en="Email address" data-hi="ईमेल पता">Email address</label>
+                <label class="visually-hidden" for="email-address">Email address</label>
                 <input id="email-address" name="email" type="email" autocomplete="email" required
-                    placeholder="Email Address" data-placeholder-en="Email Address" data-placeholder-hi="ईमेल पता">
-                <button class="btn btn-red" type="submit" data-en="Get Started &gt;" data-hi="शुरू करें &gt;">Get Started &gt;</button>
+                    placeholder="Email Address">
+                <button class="btn btn-red" type="submit">Get Started &gt;</button>
             </form>
             <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
-            <p class="form-note" data-en="Demo only — this form does not send or store your email."
-                data-hi="यह केवल डेमो है — यह फ़ॉर्म आपका ईमेल न भेजता है, न सेव करता है।">Demo only — this form does not send or store your email.</p>
+            <p class="form-note">Demo only — this form does not send or store your email.</p>
         </div>
 
         <div class="separation"></div>
@@ -55,16 +46,14 @@
 
     <section class="first feature-section" aria-labelledby="feature-tv-title">
         <div>
-            <p class="eyebrow" data-en="01 / THE BIG SCREEN" data-hi="01 / बड़ी स्क्रीन">01 / THE BIG SCREEN</p>
-            <h2 id="feature-tv-title" class="feature-title" data-en="Enjoy on your TV" data-hi="अपने टीवी पर आनंद लें">Enjoy on your TV</h2>
-            <p class="feature-description" data-en="Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more."
-                data-hi="स्मार्ट टीवी, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray प्लेयर और अन्य डिवाइस पर देखें।">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            <p class="eyebrow">01 / THE BIG SCREEN</p>
+            <h2 id="feature-tv-title" class="feature-title">Enjoy on your TV</h2>
+            <p class="feature-description">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
         </div>
 
         <div class="secImg">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                alt="Television displaying a streaming library" data-alt-en="Television displaying a streaming library"
-                data-alt-hi="स्ट्रीमिंग लाइब्रेरी दिखाता टेलीविज़न" loading="lazy">
+                alt="Television displaying a streaming library" loading="lazy">
             <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
                 autoplay loop muted playsinline aria-hidden="true"></video>
         </div>
@@ -75,33 +64,27 @@
 
         <div class="secImg">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
-                alt="A phone showing a downloaded show for offline viewing"
-                data-alt-en="A phone showing a downloaded show for offline viewing"
-                data-alt-hi="ऑफ़लाइन देखने के लिए डाउनलोड किया गया शो दिखाता फ़ोन" loading="lazy">
+                alt="A phone showing a downloaded show for offline viewing" loading="lazy">
 
         </div>
         <div>
-            <p class="eyebrow" data-en="02 / TAKE IT WITH YOU" data-hi="02 / अपने साथ ले जाएँ">02 / TAKE IT WITH YOU</p>
-            <h2 id="feature-download-title" class="feature-title" data-en="Download your shows to watch offline" data-hi="ऑफ़लाइन देखने के लिए अपने शो डाउनलोड करें">Download your shows to watch offline</h2>
-            <p class="feature-description" data-en="Save your favourites easily and always have something to watch."
-                data-hi="अपनी पसंदीदा चीज़ें आसानी से सेव करें और हमेशा कुछ न कुछ देखते रहें।">Save your favourites easily and always have something to watch.</p>
+            <p class="eyebrow">02 / TAKE IT WITH YOU</p>
+            <h2 id="feature-download-title" class="feature-title">Download your shows to watch offline</h2>
+            <p class="feature-description">Save your favourites easily and always have something to watch.</p>
         </div>
     </section>
 
     <div class="separation"></div>
     <section class="first third feature-section" aria-labelledby="feature-everywhere-title">
         <div>
-            <p class="eyebrow" data-en="03 / YOUR STORY, ANYWHERE" data-hi="03 / आपकी कहानी, हर जगह">03 / YOUR STORY, ANYWHERE</p>
-            <h2 id="feature-everywhere-title" class="feature-title" data-en="Watch everywhere" data-hi="हर जगह देखें">Watch everywhere</h2>
-            <p class="feature-description" data-en="Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV."
-                data-hi="अपने फ़ोन, टैबलेट, लैपटॉप और टीवी पर अनलिमिटेड फ़िल्में और टीवी शो स्ट्रीम करें।">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <p class="eyebrow">03 / YOUR STORY, ANYWHERE</p>
+            <h2 id="feature-everywhere-title" class="feature-title">Watch everywhere</h2>
+            <p class="feature-description">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
         </div>
 
         <div class="secImg">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                alt="Devices ready for streaming wherever you are"
-                data-alt-en="Devices ready for streaming wherever you are"
-                data-alt-hi="स्ट्रीमिंग के लिए तैयार डिवाइस" loading="lazy">
+                alt="Devices ready for streaming wherever you are" loading="lazy">
             <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
                 autoplay loop muted playsinline aria-hidden="true"></video>
         </div>
@@ -113,103 +96,142 @@
 
         <div class="secImg">
             <img src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
-                alt="Colorful characters representing a kids profile"
-                data-alt-en="Colorful characters representing a kids profile"
-                data-alt-hi="बच्चों की प्रोफ़ाइल दर्शाते रंगीन किरदार" loading="lazy">
+                alt="Colorful characters representing a kids profile" loading="lazy">
 
         </div>
         <div>
-            <p class="eyebrow" data-en="04 / A SPACE OF THEIR OWN" data-hi="04 / उनकी अपनी खास दुनिया">04 / A SPACE OF THEIR OWN</p>
-            <h2 id="feature-kids-title" class="feature-title" data-en="Create profiles for kids" data-hi="बच्चों के लिए प्रोफ़ाइल बनाएं">Create profiles for kids</h2>
-            <p class="feature-description" data-en="Send children on adventures with their favourite characters in a space made just for them—free with your membership."
-                data-hi="बच्चों को उनके पसंदीदा किरदारों के साथ एक खास जगह में रोमांचक सफ़र पर भेजें—यह आपकी सदस्यता के साथ मुफ़्त है।">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+            <p class="eyebrow">04 / A SPACE OF THEIR OWN</p>
+            <h2 id="feature-kids-title" class="feature-title">Create profiles for kids</h2>
+            <p class="feature-description">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
         </div>
     </section>
 
     <div class="separation"></div>
 
     <section class="faq">
-        <h2 data-en="Frequently Asked Questions" data-hi="अक्सर पूछे जाने वाले सवाल">Frequently Asked Questions</h2>
-        <p class="faq-intro" data-en="A few quick answers before the opening credits." data-hi="शुरुआती क्रेडिट से पहले कुछ छोटे जवाब।">A few quick answers before the opening credits.</p>
+        <h2>Frequently Asked Questions</h2>
+        <p class="faq-intro">A few quick answers before the opening credits.</p>
         <details class="faq-item">
             <summary class="faqbox">
-                <span data-en="What is Netflix?" data-hi="Netflix क्या है?">What is Netflix?</span>
+                <span>What is Netflix?</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 4V20M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
                 </svg>
             </summary>
-            <p class="faq-answer" data-en="Netflix is a streaming service with films, series, documentaries, and more across a wide range of genres and languages."
-                data-hi="Netflix एक स्ट्रीमिंग सेवा है जहाँ कई भाषाओं और शैलियों की फ़िल्में, सीरीज़, डॉक्यूमेंट्री और बहुत कुछ उपलब्ध हैं।">Netflix is a streaming service with films, series, documentaries, and more across a wide range of genres and languages.</p>
+            <p class="faq-answer">Netflix is a streaming service with films, series, documentaries, and more across a wide range of genres and languages.</p>
         </details>
         <details class="faq-item">
             <summary class="faqbox">
-                <span data-en="How much does Netflix cost?" data-hi="Netflix की कीमत कितनी है?">How much does Netflix cost?</span>
+                <span>How much does Netflix cost?</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 4V20M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
                 </svg>
             </summary>
-            <p class="faq-answer" data-en="Plans and prices can change. Visit the official Netflix website to see the latest plans available in your region."
-                data-hi="प्लान और कीमतें बदल सकती हैं। अपने क्षेत्र के मौजूदा प्लान देखने के लिए Netflix की आधिकारिक वेबसाइट पर जाएँ।">Plans and prices can change. Visit the official Netflix website to see the latest plans available in your region.</p>
+            <p class="faq-answer">Plans and prices can change. Visit the official Netflix website to see the latest plans available in your region.</p>
         </details>
         <details class="faq-item">
             <summary class="faqbox">
-                <span data-en="What can I watch on Netflix?" data-hi="मैं Netflix पर क्या देख सकता/सकती हूँ?">What can I watch on Netflix?</span>
+                <span>What can I watch on Netflix?</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 4V20M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
                 </svg>
             </summary>
-            <p class="faq-answer" data-en="Explore a changing collection of movies, series, and specials. Available titles vary by location."
-                data-hi="फ़िल्मों, सीरीज़ और विशेष कार्यक्रमों के बदलते संग्रह का आनंद लें। उपलब्ध शीर्षक आपके स्थान के अनुसार अलग-अलग हो सकते हैं।">Explore a changing collection of movies, series, and specials. Available titles vary by location.</p>
+            <p class="faq-answer">Explore a changing collection of movies, series, and specials. Available titles vary by location.</p>
         </details>
         <details class="faq-item">
             <summary class="faqbox">
-                <span data-en="Where can I watch?" data-hi="मैं इसे कहाँ देख सकता/सकती हूँ?">Where can I watch?</span>
+                <span>Where can I watch?</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 4V20M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
                 </svg>
             </summary>
-            <p class="faq-answer" data-en="Watch on an internet-connected phone, tablet, computer, smart TV, or other supported streaming device."
-                data-hi="इंटरनेट से जुड़े फ़ोन, टैबलेट, कंप्यूटर, स्मार्ट टीवी या किसी अन्य समर्थित स्ट्रीमिंग डिवाइस पर देखें।">Watch on an internet-connected phone, tablet, computer, smart TV, or other supported streaming device.</p>
+            <p class="faq-answer">Watch on an internet-connected phone, tablet, computer, smart TV, or other supported streaming device.</p>
         </details>
     </section>
     <div class="separation"></div>
 
     <footer>
-        <div class="questions" data-en="Questions? Call 000-800-919-1694" data-hi="कोई सवाल है? 000-800-919-1694 पर कॉल करें">
+        <div class="questions">
             Questions? Call 000-800-919-1694
         </div>
         <div class="footer">
             <div class="footer-item"> 
-                <a href="https://ir.netflix.net/" data-en="Investor Relations" data-hi="निवेशक संबंध">Investor Relations</a>
-                <a href="https://jobs.netflix.com/" data-en="Jobs" data-hi="नौकरियाँ">Jobs</a>
-                <a href="https://www.netflix.com/" data-en="Ways to Watch" data-hi="देखने के तरीके">Ways to Watch</a>
-                <a href="https://help.netflix.com/legal/termsofuse" data-en="Terms of Use" data-hi="उपयोग की शर्तें">Terms of Use</a>
+                <a href="https://ir.netflix.net/">Investor Relations</a>
+                <a href="https://jobs.netflix.com/">Jobs</a>
+                <a href="https://www.netflix.com/">Ways to Watch</a>
+                <a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a>
             </div>
 
             <div class="footer-item"> 
-                <a href="https://help.netflix.com/" data-en="Help Centre" data-hi="सहायता केंद्र">Help Centre</a>
-                <a href="https://www.netflix.com/account" data-en="Account" data-hi="खाता">Account</a>
-                <a href="https://fast.com/" data-en="Speed Test" data-hi="स्पीड टेस्ट">Speed Test</a>
-                <a href="https://help.netflix.com/legal/notices" data-en="Legal Notices" data-hi="कानूनी सूचनाएँ">Legal Notices</a>
+                <a href="https://help.netflix.com/">Help Centre</a>
+                <a href="https://www.netflix.com/account">Account</a>
+                <a href="https://fast.com/">Speed Test</a>
+                <a href="https://help.netflix.com/legal/notices">Legal Notices</a>
             </div>
             <div class="footer-item">
-                <a href="https://about.netflix.com/en/newsroom" data-en="Media Centre" data-hi="मीडिया केंद्र">Media Centre</a>
-                <a href="https://help.netflix.com/legal/privacy" data-en="Privacy" data-hi="गोपनीयता">Privacy</a>
-                <a href="https://www.netflix.com/cookie-preferences" data-en="Cookie Preferences" data-hi="कुकी प्राथमिकताएँ">Cookie Preferences</a>
-                <a href="https://about.netflix.com/" data-en="Corporate" data-hi="कॉर्पोरेट">Corporate</a>
+                <a href="https://about.netflix.com/en/newsroom">Media Centre</a>
+                <a href="https://help.netflix.com/legal/privacy">Privacy</a>
+                <a href="https://www.netflix.com/cookie-preferences">Cookie Preferences</a>
+                <a href="https://about.netflix.com/">Corporate</a>
             </div>
 
             <div class="footer-item">
-                <a href="https://help.netflix.com/" data-en="Contact Us" data-hi="हमसे संपर्क करें">Contact Us</a>
-                <a href="https://fast.com/" data-en="Speed Test" data-hi="स्पीड टेस्ट">Speed Test</a>
-                <a href="https://help.netflix.com/legal/notices" data-en="Legal Notices" data-hi="कानूनी सूचनाएँ">Legal Notices</a>
-                <a href="https://www.netflix.com/browse" data-en="Only on Netflix" data-hi="सिर्फ़ Netflix पर">Only on Netflix</a>
+                <a href="https://help.netflix.com/">Contact Us</a>
+                <a href="https://fast.com/">Speed Test</a>
+                <a href="https://help.netflix.com/legal/notices">Legal Notices</a>
+                <a href="https://www.netflix.com/browse">Only on Netflix</a>
             </div>
         </div>
-        <p class="footer-note" data-en="Unofficial educational demo · Not affiliated with Netflix"
-            data-hi="अनौपचारिक शैक्षणिक डेमो · Netflix से संबद्ध नहीं">Unofficial educational demo · Not affiliated with Netflix</p>
+        <p class="footer-note">Unofficial educational demo · Not affiliated with Netflix</p>
     </footer>
-    <script src="script.js" defer></script>
+    <script>
+        const membershipForm = document.getElementById("membership-form");
+        const emailInput = document.getElementById("email-address");
+        const formMessage = document.getElementById("form-message");
+
+        function setFormMessage(message, isError = false) {
+            formMessage.textContent = message;
+            formMessage.classList.toggle("is-error", isError);
+        }
+
+        emailInput.addEventListener("input", () => {
+            emailInput.setCustomValidity("");
+            setFormMessage("");
+        });
+
+        membershipForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+
+            const invalidEmailMessage = "Please enter a valid email address.";
+
+            if (!emailInput.validity.valid) {
+                emailInput.setCustomValidity(invalidEmailMessage);
+                emailInput.reportValidity();
+                setFormMessage(invalidEmailMessage, true);
+                return;
+            }
+
+            setFormMessage("This is a demo — your email has not been sent anywhere.");
+        });
+
+        const featureSections = document.querySelectorAll(".feature-section");
+
+        if ("IntersectionObserver" in window) {
+            const featureObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("is-visible");
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            featureSections.forEach((section) => {
+                section.classList.add("reveal-ready");
+                featureObserver.observe(section);
+            });
+        }
+    </script>
 </body>
 
 </html>

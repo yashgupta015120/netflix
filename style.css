@@ -121,15 +121,6 @@ nav img {
     outline-offset: 3px;
 }
 
-.language-selector {
-    padding: 0 32px 0 13px;
-}
-
-nav select option {
-    color: #111;
-    background: white;
-}
-
 .btn-red-sm {
     padding: 0 19px;
     border-color: var(--red);
@@ -559,13 +550,6 @@ footer .questions {
 
     .nav-actions {
         gap: 8px;
-    }
-
-    .language-selector {
-        min-height: 38px;
-        padding-right: 22px;
-        padding-left: 9px;
-        font-size: 13px;
     }
 
     .btn-red-sm {
