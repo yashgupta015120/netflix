@@ -156,6 +156,6 @@ This is an unofficial educational landing-page concept. Netflix names, logos, an
 
 ### 🍿 Ready for the premiere?
 
-**[Visit the live site: netflix-ruddy-nine.vercel.app](https://netflix-ruddy-nine.vercel.app/)**
+**[Visit the live site: netflix-ruddy-nine.vercel.app](https://netflix-de26q2tv2-mi-9.vercel.app/)**
 
 </div>
