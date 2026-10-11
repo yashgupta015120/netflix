@@ -19,7 +19,7 @@
 
 **A polished streaming homepage concept featuring cinematic visuals, responsive layouts, and lightweight interactions.**
 
-[✨ Explore the features](#-features) · [🧑‍💻 Set it up](#-installation-and-local-setup) · [🚀 Open the live site](https://netflix-ruddy-nine.vercel.app/)
+[✨ Explore the features](#-features) · [🧑‍💻 Set it up](#-installation-and-local-setup) · [🚀 Open the live site](https://netflix-de26q2tv2-mi-9.vercel.app/)
 
 </div>
 
