@@ -11,7 +11,7 @@
 
 [![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-Design-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
-[![Live Demo](https://img.shields.io/badge/▶_LIVE_DEMO-OPEN-E50914?style=for-the-badge&logo=vercel&logoColor=white)](https://netflix-ruddy-nine.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/▶_LIVE_DEMO-OPEN-E50914?style=for-the-badge&logo=vercel&logoColor=white)](https://netflix-de26q2tv2-mi-9.vercel.app/)
 
 <img
   src="https://readme-typing-svg.demolab.com?font=Manrope&weight=800&size=25&duration=1800&pause=900&color=E50914&center=true&vCenter=true&width=700&height=55&lines=NETFLIX+INDIA+LANDING+PAGE;THE+NEXT+STORY+STARTS+HERE;BUILT+WITH+HTML5+%26+CSS3"
@@ -19,7 +19,7 @@
 
 **A polished streaming homepage concept featuring cinematic visuals, responsive layouts, and lightweight interactions.**
 
-[✨ Explore the features](#-features) · [🧑‍💻 Set it up](#-installation-and-local-setup) · [🚀 Open the live site](https://netflix-ruddy-nine.vercel.app/)
+[✨ Explore the features](#-features) · [🧑‍💻 Set it up](#-installation-and-local-setup) · [🚀 Open the live site](https://netflix-de26q2tv2-mi-9.vercel.app/)
 
 </div>
 
@@ -156,6 +156,6 @@ This is an unofficial educational landing-page concept. Netflix names, logos, an
 
 ### 🍿 Ready for the premiere?
 
-**[Visit the live site: netflix-ruddy-nine.vercel.app](https://netflix-ruddy-nine.vercel.app/)**
+**[Visit the live site: netflix-de26q2tv2-mi-9.vercel.app/](https://netflix-de26q2tv2-mi-9.vercel.app/)**
 
 </div>
